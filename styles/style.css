@@ -1,0 +1,95 @@
+body{
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    padding: 20px;
+    background: url("/images/myBck.jpg") no-repeat;
+    background-size: 100vw 310px;
+
+}
+body img{
+    width: 100vw;
+}
+.body-wrapper{
+    display: flex;
+}
+.email, .phone{
+    color: black;
+    font-size: 1rem;
+}
+ .row{
+    background: lightblue;
+}
+#left-section{
+    width: 30vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+} 
+
+#right-section{
+    width: 60vw;
+    margin-right: 20px;
+    height: 100vh;
+    text-align: center;
+    
+}
+
+.nav-contents{
+    position: fixed;
+    font: poppins;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 60px;
+    align-items: center;
+    background: url('/images/me.png') no-repeat;
+}
+
+.nav-contents li{
+    list-style-type: none;
+    
+}
+.nameSection{
+    margin-top: 230px;
+    font: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: whitesmoke;
+}
+.avator{
+    border-radius: 35px;
+    margin-left: 40px;
+
+}
+#right-section p{
+    font-size: 1rem;
+}
+.about h2{
+    font-size: 2rem;
+    border-bottom: 1px solid whitesmoke;
+    padding-bottom: 10px;
+
+}
+
+#right-section h2{
+    font-size: 2rem;
+    border-bottom: 3px solid whitesmoke;
+    padding-bottom: 10px;
+
+}
+.skills p{
+    margin-top: 15px;
+    padding: 5px;
+}
+
+button{
+    padding: 5px;
+    background: blue;
+    margin: 10px;
+    border-radius: 3px;
+
+}
+button :hover{
+    background: lightblue;
+}
